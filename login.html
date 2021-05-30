@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Smart Home</title>
+</head>
+<body>
+    <div class="main">
+    <div class="top">
+        <div><h1>IOT BASED SMART HOME USING FACE RECOGNIZATION</h1></div>
+        <div ><i onclick="openFunction()" class="fa fa-bars"></i></div>
+    </div>
+    <form class="form1" id="form1" name="MyForm" method="POST" autocomplete="off">
+    <div class="form">
+        <input type="text" alt="User Name" placeholder="User ID" id="username" name="username" required>
+        <input type="password" alt="User Name" placeholder="Password" id="password" name="password" required>
+        <small id="error1">User name or Password not valid</small> <br>
+        <!-- <a id="next"><input type="button" id="button" value="Login"></a> -->
+        <input type="button" id="button" value="Login">
+        
+    </div>
+    </form>
+</div>
+<div class="side" id="lol">
+    <i onclick="closeFunction()" class="fa fa-bars" id="lol1"></i>
+    <div class="more">
+        <a href="#">Team</a>
+        <a href="#">How to use</a>
+        <a href="#">Documentation</a>
+        <a href="#">Contact</a>       
+    </div>
+</div>
+<div class="dimbg" id="bgdark" onclick="disMis()">
+
+</div>
+</body>
+<script type="text/javascript">
+    function openFunction(){
+        document.getElementById("lol").style.right = "0px";
+        document.getElementById("bgdark").style.left = "0px";
+    }
+    function closeFunction(){
+        document.getElementById("lol").style.right = "-250px";
+        document.getElementById("bgdark").style.left = "100%";
+    }
+    function disMis(){
+        document.getElementById("lol").style.right = "-250px";
+        document.getElementById("bgdark").style.left = "100%";
+    }
+
+    $(document).ready(function(){
+    $('#button').click(function(){
+        var userName=$('#username').val();
+        var passWord=$('#password').val();
+       if(userName=="admin" && passWord=="admin"){
+            // $('#next').attr('href', 'mainpage/mainpage.html');
+            window.location.href= "mainpage/mainpage.html";
+        }
+        else{
+            $("#error1").css("visibility", "visible")
+        }
+
+     });
+});
+
+
+</script>
+</html>
