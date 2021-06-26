@@ -20,6 +20,7 @@
  <p align="center">
   <img src="https://user-images.githubusercontent.com/35441380/123501492-13f81b00-d665-11eb-9e1b-c75dc17c2beb.png" width="500px" height="auto">
  </p>
+ 
 #### &emsp;Step 2: Data Training
 &emsp; It trains the the raw images stored in the **dataset** folder <br>
 &emsp; Go inside **face training.py** and execute the program <br>
