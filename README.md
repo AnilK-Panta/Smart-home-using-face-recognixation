@@ -13,7 +13,7 @@
 &emsp; It takes the image data from the user whose image need to be trained.<br>
 &emsp; Go inside **face dataset.py** and execute the program <br>
 <p align="center">
-<-- Command line Image Here --> <br>
+ <img src="https://user-images.githubusercontent.com/35441380/123503729-71479880-d674-11eb-850a-f97c644cd070.png">
  </p>
 
 &emsp; After running this command, your webcam starts taking your sample images and stores it inside **dataset** folder<br><br>
@@ -25,7 +25,7 @@
 &emsp; It trains the the raw images stored in the **dataset** folder <br>
 &emsp; Go inside **face training.py** and execute the program <br>
 <p align="center">
- <--command line Image Here-->
+ <img src="https://user-images.githubusercontent.com/35441380/123503736-81f80e80-d674-11eb-81dc-5fa47543b952.png">
 </p>
 
 
@@ -38,7 +38,7 @@
 &emsp; After following all the above steps we are now ready to go.<br>
 &emsp; Go inside **face recognition.py** and execute the program <br>
 <p align="center">
-<-- Command line Image Here --> <br>
+ <img src="https://user-images.githubusercontent.com/35441380/123503747-92a88480-d674-11eb-8037-fc719e8991ad.png">
  </p>
 
 &emsp; After running this command, your webcam will trace your face and tries to compare it with the trained image data inside trainer.yml. <br>
