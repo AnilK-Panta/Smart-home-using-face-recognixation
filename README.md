@@ -1,4 +1,3 @@
-
 <h1 align="center"> Smart-home-using-face-recognition </h1>
 <p align="center" > This project is divided into three section <br> </p>
 
@@ -78,7 +77,13 @@ We can access the surveillance camera remotely in our webapp and display the str
 <p align="center">
 <img src="https://user-images.githubusercontent.com/35441380/123501732-b9f85500-d666-11eb-9cc3-3c58121bfb4f.png" width="500px" height="auto">
 </p>
-<br><br>
+<br><br><br>
+
+[![IoT Based Smart Home](https://user-images.githubusercontent.com/35441380/123502667-dba90a80-d66d-11eb-93a6-d3c3f8c346b1.png)](https://youtu.be/4j9fsOxirIg "IoT Based Smart Home")
+
+
+
+
 <h2 align="center">
 ** Have a nice day **
 </h2>
